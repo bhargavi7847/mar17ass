@@ -1,0 +1,16 @@
+s=input()
+vowels=['a','e','i','o','u']
+new=""
+text=len(s)
+
+for i in range(text):
+    if s[i] not in vowels:
+        new = new + s[i]
+
+s=new 
+print(s)
+    
+
+OUTPUT:
+welcome to python
+wlcm t pythn
